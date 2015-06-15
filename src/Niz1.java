@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class Niz1 {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+		
+		int [] arr = new int [10];
+		for (int i =1; i <= arr.length - 1; i++){
+			arr[i] = (int)(Math.random()*arr.length+1);
+					
+		}
+		
+		for (int value : arr){
+			System.out.println(value);
+		}
+       
+        
+		
+		
+		
+	}
+
+}
